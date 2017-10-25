@@ -15,7 +15,7 @@ public class IpCalcCli {
             System.out.println("Address Count : " + myip.getAddressCount());
         }
         else{
-            System.out.println("IP Address is empty!");
+            System.err.println("IP Address is empty!");
         }
 
     }
