@@ -27,7 +27,7 @@ public class IpCalc {
             this.addressCount = this.info.getAddressCountLong();
         }
         catch(IllegalArgumentException e){
-            System.out.println("Bad IP Address format!");
+            System.err.println("Bad IP Address format!");
         }
     }
 
